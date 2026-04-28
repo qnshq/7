@@ -1,0 +1,157 @@
+/* === Общий селектор * (п. 17) === */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* === Стили для body (п. 18) === */
+body {
+    background: #fff;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #222;
+}
+
+/* === Основной блок main (п. 19) === */
+#main {
+    margin: 20px auto;
+    width: 800px;
+}
+
+/* === Шапка header (п. 20) === */
+#header {
+    height: 90px;
+    background: #2a79bc url(images/header.png) no-repeat;
+}
+
+/* === Заголовок H1 в шапке (п. 21) === */
+#header h1 {
+    font-size: 28px;
+    letter-spacing: -1px;
+    padding: 20px 0 0 20px;
+    color: #FF5500;
+    margin: 0;
+}
+
+/* === Ссылка в заголовке (п. 22) === */
+#header h1 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+    letter-spacing: -2px;
+}
+
+#header h1 a:hover {
+    color: #111;
+}
+
+/* === Обычные ссылки (п. 23, 24) === */
+a {
+    text-decoration: none;
+    color: #4682B4;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2a52be;
+}
+
+/* === Блок content (п. 25) === */
+#content {
+    padding: 0px 0 0 0px;
+}
+
+/* === Левая колонка (п. 26) === */
+#left {
+    float: left;
+    width: 180px;
+    padding-top: 10px;
+}
+
+/* === Заголовки H2 в левой колонке (п. 27) === */
+#left h2 {
+    margin: 10px 0 0 0;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    background: #2a79bc url(images/menu.png) no-repeat;
+    color: #fff;
+    font-size: 13px;
+}
+
+/* === Списки в левой колонке (п. 28) === */
+#left ul {
+    padding: 10px 0 15px 10px;
+    list-style-type: square;
+    color: #2979BD;
+    padding-left: 30px;
+}
+
+#left ul li a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#left ul li a:hover {
+    text-decoration: underline;
+}
+
+/* === Форма в левой колонке === */
+#left form {
+    color: #2979BD;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+#left form input[type="text"],
+#left form input[type="password"] {
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+/* === Правая колонка (п. 29) === */
+#right {
+    float: right;
+    width: 590px;
+    text-align: justify;
+    padding-top: 5px;
+}
+
+#right h2 {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 15px 0 7px 0;
+    color: #2a79bc;
+    margin-top: 0;
+}
+
+#right h2 a {
+    text-decoration: none;
+}
+
+#right h2 a:hover {
+    text-decoration: underline;
+}
+
+#right h3 {
+    font-size: 14px;
+    color: #2979BD;
+    margin: 10px 0 5px 0;
+}
+
+/* === Подвал footer (п. 30) === */
+#footer {
+    text-align: center;
+    font-size: 11px;
+    color: #0047ab;
+    margin-top: 20px;
+    border-top: 1px dotted #0047ab;
+    padding-top: 5px;
+    clear: both;
+}
+
+#footer a {
+    color: #0047ab;
+}
